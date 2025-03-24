@@ -8,7 +8,8 @@ from great_expectations.exceptions import (
 
 logger = logging.getLogger(__name__)
 
-from collections import Iterable
+# from collections import Iterable
+from collections.abc import Iterable
 import inspect
 import copy
 from six import string_types, class_types

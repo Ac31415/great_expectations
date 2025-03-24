@@ -1,7 +1,8 @@
 import logging
 logger = logging.getLogger(__name__)
 
-from collections import Iterable
+# from collections import Iterable
+from collections.abc import Iterable
 from six import string_types, class_types
 
 from great_expectations.types import (

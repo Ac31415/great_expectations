@@ -6,10 +6,13 @@ from functools import wraps
 import random
 import string
 import copy
-from collections import (
-    OrderedDict,
-    Mapping
-)
+# from collections import (
+#     OrderedDict,
+#     Mapping
+# )
+
+from collections import OrderedDict
+from collections.abc import Mapping
 
 from dateutil.parser import parse
 
